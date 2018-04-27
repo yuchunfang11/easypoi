@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<script type="text/javascript">
+    function deleteRow() {
+        var tr = document.getElementById("last")
+        tr.parentElement.removeChild(tr);
+    }
+    function exportData() {
+        window.location.href = "htmlExport";
+    }
+</script>
+</head>
+<table sheetName="工作表2" border="1px solid black">
+    <tr>
+        <td colspan="4" style="font: bold 22pt 'Microsoft YaHei';">通讯录</td>
+    </tr>
+    <tr>
+        <td freezeCol="true" style="width: 32px;">电话号码</td>
+        <td freezeCol="true" style="width: 32px;">姓名</td>
+        <td freezeCol="true" style="width: 32px;">备注</td>
+        <td freezeCol="true" style="width: 32px;">出生日期</td>
+    </tr>
+    <tr>
+        <td freezeCol="true" style="width: 32px;">187970</td>
+        <td freezeCol="true" style="width: 32px;">小米</td>
+        <td freezeCol="true" style="width: 32px;">test</td>
+        <td freezeCol="true" style="width: 32px;">2018-04-24</td>
+    </tr>
+    <tr>
+        <td freezeCol="true" style="width: 32px;">187971</td>
+        <td freezeCol="true" style="width: 32px;">小米</td>
+        <td freezeCol="true" style="width: 32px;">test</td>
+        <td freezeCol="true" style="width: 32px;">2018-04-24</td>
+    </tr>
+    <tr>
+        <td freezeCol="true" style="width: 32px;">187972</td>
+        <td freezeCol="true" style="width: 32px;">小米</td>
+        <td freezeCol="true" style="width: 32px;">test</td>
+        <td freezeCol="true" style="width: 32px;">2018-04-24</td>
+    </tr>
+
+</table>
+<input type="button" onclick="deleteRow();" value="删除一行"/><br>
+<input type="button" onclick="exportData();" value="导出"/>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

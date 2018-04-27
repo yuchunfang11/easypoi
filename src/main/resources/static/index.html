@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        ul li{
+            list-style-type:none;
+        }
+        a{ text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+    <h1>welcome visit springboot</h1>
+    <ul>
+       <!-- <li><a href="/singleExport">简单导出</a></li>
+        <li><a href="/templetExport">模板导出</a></li>
+        <li><a href="/exportlist">查看html模板后再导出</a></li>-->
+        <li><a href="/templetExport?name=流通总量情况表">流通总量情况表模板下载</a></li>
+        <li><a href="/templetExport?name=流通企业情况表">流通企业情况表模板下载</a></li>
+        <li><a href="/templetExport?name=流通企业明细表">流通企业明细表模板下载</a></li>
+        <li><a href="/templetExport?name=商品交易市场表">商品交易市场表模板下载</a></li>
+        <li><a href="/templetExport?name=商品交易市场明细表">商品交易市场明细表模板下载</a></li>
+        <li><a href="/templetExport?name=特色街商务区表">特色街商务区表模板下载</a></li>
+        <li><a href="/templetExport?name=商业网点情况表">商业网点情况表模板下载</a></li>
+        <li><a href="/templetExport?name=商业网点明细表">商业网点明细表模板下载</a></li>
+        <li><a href="/templetExport?name=冷库情况表">冷库情况表模板下载</a></li>
+        <li><a href="/templetExport?name=洗染企业表">洗染企业表模板下载</a></li>
+        <li><a href="/templetExport?name=沐浴企业表">沐浴企业表模板下载</a></li>
+        <li><a href="/templetExport?name=家政企业表">家政企业表模板下载</a></li>
+        <li><a href="/templetExport?name=美容美发企业表">美容美发企业表模板下载</a></li>
+        <li><a href="/rxsytemplet?name=人像摄影表">人像摄影表模板下载</a></li>
+        <li><a href="/templetExport?name=家电维修企业表">家电维修企业表模板下载</a></li>
+        <li><a href="/templetExport?name=会展企业表">会展企业表模板下载</a></li>
+        <li><a href="/templetExport?name=仓储企业表">仓储企业表模板下载</a></li>
+        <li><a href="/templetExport?name=融资租赁企业表">融资租赁企业表模板下载</a></li>
+        <li><a href="/templetExport?name=拍卖企业表">拍卖企业表模板下载</a></li>
+        <li><a href="/templetExport?name=典当业务表">典当业务表模板下载</a></li>
+        <li><a href="/templetExport?name=报废汽车企业表">报废汽车企业表模板下载</a></li>
+        <li><a href="/templetExport?name=直销企业表">直销企业表模板下载</a></li>
+        <li><a href="/templetExport?name=药品流通企业表">药品流通企业表模板下载</a></li>
+        <li><a href="/templetExport?name=酒类流通企业表">酒类流通企业表模板下载</a></li>
+        <li><a href="/templetExport?name=再生资源回收企业表">再生资源回收企业表模板下载</a></li>
+    </ul>
+-------------------------------- Spring Boot 文件上传-----------------------------------------------
+    <form method="post" action="/upload" enctype="multipart/form-data">
+        <input type="file" name="file" /><br/><br/>
+        <input type="submit" value="Submit" />
+    </form>
+
+</body>
+</html>
